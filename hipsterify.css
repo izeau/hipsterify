@@ -1,0 +1,81 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+section {
+  font-family: "Bitter", serif;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.6em;
+  height: 100%;
+}
+
+.column {
+  height: 100%;
+  background: rgba(255,255,255,.5);
+  padding: 100px 100px;
+  width: 960px;
+  margin: auto;
+}
+
+section > .column > h1, section > .column > h2 {
+  margin: 0 0 100px;
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.landing {
+  background-image: url(congruent_pentagon.png);
+  color: #fa8;
+}
+
+.landing > .column {
+  padding-top: 15%;
+}
+
+.landing > .column > blockquote {
+  margin: 0 auto;
+  padding: 0;
+  font-size: 1.2em;
+  line-height: 1.8em;
+}
+
+.usage {
+  background-image: url(food.png);
+  color: #7b9;
+}
+
+.usage > .column > pre {
+  text-align: left;
+}
+
+.features {
+  background-image: url(concrete_wall.png);
+  color: #eed;
+}
+
+.features > .column {
+  background-color: rgba(255,255,255,.1);
+}
+
+.features > .column > ol {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.features > .column > ol > li {
+  padding: .5em 0;
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>H!PS₸ΣR!FY</title>
+    <meta name="description" content="hipsterify is a small library to convert latin alphabet names to their hipster counterparts using unicode glyphs &mdash; perfect to create your witch house band name!">
+    <link rel="stylesheet" href="solarized_light.css">
+    <link rel="stylesheet" href="hipsterify.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Bitter|Montserrat">
+    <script src="highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </head>
+  <body>
+    <section class="landing">
+      <div class="column">
+        <h1>H!PSTΣR!FY</h1>
+        <blockquote>
+          hipsterify is a small library to convert latin alphabet names to their hipster counterparts using unicode glyphs &mdash; perfect to create your witch house band name!
+        </blockquote>
+      </div>
+    </section>
+    <section class="usage">
+      <div class="column">
+        <h2>usɅge</h2>
+        <h3>install</h3>
+<pre><code>$ npm install -S hipsterify</code></pre>
+        <h3>code</h3>
+<pre><code>var hipsterify = require("hipsterify");
+
+// Outputs: ▲ШΣSΘӎΣ
+console.log(hipsterify("awesome"));</code></pre>
+      </div>
+    </section>
+    <section class="features">
+      <div class="column">
+        <h2>fΣaturΣs</h2>
+        <ol>
+          <li>There can be more than one glyph to replace a letter</li>
+          <li>If a letter (e.g “A”) is replaced by a glyph, every “A” in the current expression will be replaced by the same glyph</li>
+          <li>Vowels are more likely to be replaced</li>
+          <li>If two ore more same letters are following each other, they are more likely to be replaced</li>
+          <li>The more the letter is in the center of the word, the more likely it is to be replaced</li>
+          <li>Every word has a single correspondance</li>
+        </ol>
+      </div>
+    </section>
+    <a href="https://github.com/izeau/hipsterify"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
+    <script src="hipsterify.js"></script>
+  </body>
+</html>
