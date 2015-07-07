@@ -1,3 +1,4 @@
+var hipsterify = require('hipsterify');
 var sections = document.querySelectorAll("section");
 var length = sections.length;
 var i, bp;
@@ -12,3 +13,11 @@ var parallax = function() {
 onscroll = function() {
   requestAnimationFrame(parallax);
 }
+
+var from = document.getElementById("from");
+var to = document.getElementById("to");
+
+from.addEventListener("keyup", function(){
+  to.innerText = hipsterify(from.innerText);
+});
+
