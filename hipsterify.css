@@ -52,6 +52,17 @@ section > .column > h1, section > .column > h2 {
   line-height: 1.8em;
 }
 
+.demo{
+  background-image: url(flowers.jpg);
+  color: #bf9ac5;
+}
+
+.demo div[contenteditable]{
+  width: 100%;
+  min-height: 100px;
+  border: 3px solid #bf9ac5;
+}
+
 .usage {
   background-image: url(food.png);
   color: #7b9;
